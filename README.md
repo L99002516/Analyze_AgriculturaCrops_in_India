@@ -3,3 +3,4 @@
 ![cppcheck-action](https://github.com/L99002516/Analyze_AgriculturaCrops_in_India/workflows/cppcheck-action/badge.svg)
 ![C/C++ CI](https://github.com/L99002516/Analyze_AgriculturaCrops_in_India/workflows/C/C++%20CI/badge.svg)
 ![Valgrind](https://github.com/L99002516/Analyze_AgriculturaCrops_in_India/workflows/Valgrind/badge.svg)
+![Unit Testing](https://github.com/L99002516/Analyze_AgriculturaCrops_in_India/workflows/Unit%20Testing/badge.svg)
