@@ -16,5 +16,3 @@ jobs:
       
     - name: cmake 
       run:  cmake . -C Source/
-    - name: make
-      run:  make -C Source/
