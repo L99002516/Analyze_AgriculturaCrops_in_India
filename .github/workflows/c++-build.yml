@@ -14,5 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: make all
-      run:  make all -C Source/
+    - name: cmake 
+      run:  cmake . -C Source/
+    - name: make
+      run:  make -C Source/
