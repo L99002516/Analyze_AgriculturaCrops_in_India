@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: cmake
-      run:  cmake -C Source/CMakeLists.txt
+      run:  cmake -C Source/
