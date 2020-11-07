@@ -110,7 +110,7 @@ protected:
   Agriculture c;
 };
 
-EST_F(cropdbtest, DefaultConstructor1){
+TEST_F(cropdbtest, DefaultConstructor1){
 c.addcrop("avacodo",1000,2000,3000,2800,6700,100,120,150,140,180,10,11,12,13,14);
 EXPECT_EQ(56,c.countAll());
 }
