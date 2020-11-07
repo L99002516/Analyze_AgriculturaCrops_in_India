@@ -21,5 +21,3 @@ jobs:
       run:  cmake CMakeLists.txt 
     - name: make
       run: make 
-    - name: unit testing
-      run: ./Tests
