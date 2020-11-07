@@ -110,7 +110,7 @@ protected:
   Agriculture c;
 };
 
-TEST_F(cropdbtest, DefaultConstructor1){
+EST_F(cropdbtest, DefaultConstructor1){
 c.addcrop("avacodo",1000,2000,3000,2800,6700,100,120,150,140,180,10,11,12,13,14);
 EXPECT_EQ(56,c.countAll());
 }
@@ -118,10 +118,12 @@ TEST_F(cropdbtest, highestproduction){
 EXPECT_DOUBLE_EQ(178,c.highest_production("Rice"));
 EXPECT_EQ(55,c.countAll());
 }
+
 TEST_F(cropdbtest, highestarea){
 EXPECT_DOUBLE_EQ(314,c.highest_area("Rice"));
 EXPECT_EQ(55,c.countAll());
 }
+
 TEST_F(cropdbtest, highestyield){
 EXPECT_DOUBLE_EQ(1310,c.highest_yield("Rice"));
 EXPECT_EQ(55,c.countAll());
